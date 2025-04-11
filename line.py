@@ -1,4 +1,5 @@
 import math
+
 def line():
     a = float(input("Ingrese el coeficiente A: ")) #Python siempre los toma como texto (string). float("3") te devuelve 3.0, que sigue siendo válido. También podés usar int() si solo querés números enteros, pero float() es más general porque acepta decimales e enteros.
     b = float(input("Ingrese el coeficiente B: "))
